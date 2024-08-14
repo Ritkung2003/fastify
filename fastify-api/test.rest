@@ -1,0 +1,16 @@
+############################## GET
+Get http://127.0.0.1:3000/category/getall
+
+
+############################## GET ID
+Get http://127.0.0.1:3000/category/getbyid/1
+
+
+############################## POST
+POST http://127.0.0.1:3000/category/create
+Content-Type: application/json
+
+{
+    "categoryName": "Snack Jack",
+    "description": "Snack For Fun"
+}
